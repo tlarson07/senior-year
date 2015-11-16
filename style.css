@@ -1,0 +1,230 @@
+/* background */
+html{
+  background:url('img1.jpg') no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  min-width: 50%;
+}
+
+/* Navigation Bar */
+#navbar{
+  margin: 0 auto;
+  text-align: center;
+}
+#navbar ul{
+  list-style-type: none;
+}
+#navbar li{
+  display:inline-block;
+  vertical-align: middle;
+  padding: 20px;
+}
+#navbar a{
+  text-decoration: none;
+  color:white;
+  font-family: AvenirNext-Bold;
+  font-size: 20px;
+  text-shadow: 0px 2px 14px rgba(0,0,0,0.50);
+}
+#navebar img{
+  width:80%;
+  height: auto;
+}
+
+
+/* ---- HOME PAGE ----- */
+/* Title */
+.content{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#construction_home {
+    padding-bottom: 50px;
+    border: 0;
+    line-height: 1;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+#construction_home a {
+  text-decoration: none;
+  font-family: AvenirNext-Bold;
+  font-size: 150px;
+  color: #D2691E;
+}
+#construction{
+  padding-bottom: 50px;
+  border: 0;
+  line-height: 1;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+#construction a {
+  text-decoration: none;
+  font-family: AvenirNext-Bold;
+  font-size: 150px;
+  color: #D2691E;
+}
+#construction p {
+  font-family: AvenirNext-Regular;
+  font-size:50px;
+  color: #FFFFFF;
+  line-height: 1.8;
+}
+#construction span {
+  font-family: AvenirNext-Regular;
+  font-size:50px;
+  color:black;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+/* NOTE: TEMPORARY DURING BUILD */
+/*#title h1{
+  font-family: AvenirNext-Bold;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+#title h2{
+  font-family: AvenirNext-Bold;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+#title h3{
+  font-family: AvenirNext-Bold;
+  font-size: 74px;
+  color: #FFFFFF;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+#title li {
+  display: inline-block;
+  vertical-align: baseline;
+}
+#title h4{
+  font-family: AvenirNext-Medium;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+#title h5{
+  font-family: AvenirNext-Medium;
+  font-size: 36px;
+  color: #0D7DFF;
+  padding-left: 5px;
+}*/
+
+
+/* 1 */
+#one{
+  background-color: #4E5B71;
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+.clearfix{
+  overflow: auto;
+}
+#one p{
+  font-family: AvenirNext-Regular;
+  font-size: 21px;
+  color: #FFFFFF;
+  line-height: 50px;
+}
+#one span{
+  background: #B55252;
+  border-radius: 7px;
+  padding: 3px;
+}
+/* 2 */
+#two{
+  background:#D6E6F4;
+  overflow:auto;
+}
+#two ul{
+  font-family: AvenirNext-Regular;
+  font-size: 21px;
+  color: #FFFFFF;
+  list-style:none;
+  padding:0;
+  border: 0;
+  margin: 0;
+  text-align:center;
+  overflow:hidden;
+}
+#two span{
+  position:relative;
+  display:inline-block;
+  text-decoration:none;
+  padding:5px 10px;
+  background:#B25350;
+  color:#fff;
+  margin-top:20px;
+  border-radius:7px;
+  bottom: 35px;
+}
+#two li:first-of-type span{ /*Circle*/
+  border-radius:50%;
+  background:#B25350;
+  width:30px;
+  height:30px;
+  padding:0;
+  bottom: 35px;
+}
+#two li:first-of-type span:before{ /*Vertical Line*/
+  content:"";
+  background:#B25350;
+  position:absolute;
+  top:5;
+  height:380px;
+  width:5px;
+  left:50%;
+  margin-left:-3px;
+}
+
+/* ---- ABOUT PAGE ----- */
+
+
+/* ---- DESIGN WORkS ---- */
+
+
+/* ---- PHOTOGRAPHY ----- */
+
+/* Social Icons */
+#footer {
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #D6E6F4;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+#footer h1{
+  font-family: AvenirNext-Regular;
+  font-size: 16px;
+  color: #0D7DFF;
+  line-height: 0px;
+  margin: 0;
+  padding: 20px;
+  border: 0;
+}
+#footer ul{
+  list-style-type: none;
+}
+#footer li{
+  display:inline-block;
+  vertical-align: middle;
+  padding: 3px;
+}
