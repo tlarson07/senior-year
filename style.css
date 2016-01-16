@@ -51,7 +51,7 @@ text-decoration: none;
 #construction_home a {
 text-decoration: none;
 font-family: AvenirNext-Bold;
-font-size: large;
+font-size: 125px;
 color: #D2691E;
 text-align: center;
 }
@@ -138,13 +138,19 @@ overflow: auto;
 }
 #one p{
 font-family: AvenirNext-Regular;
-font-size: 16px;
+font-size: 21px;
 color: #FFFFFF;
 }
 #one .mac{
 width: 100%;
 height: auto;
 }
+
+#one #boxed {
+  background:#B25350;
+  border-radius: 7px;
+}
+
 /* 2 */
 #two{
 background:#D6E6F4;
